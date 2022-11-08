@@ -1,0 +1,131 @@
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p{
+  line-height: 2;
+}
+
+h1 {
+  font-size: 5.625rem;   /*to make the font size dynamic in 1 px is equal to 6.25% that means suppose you have to set for 90px then simply 90*6.25=562.5% or 1 more way to font size dynamic by em so 16px=100%=1em;so int he place of percentage we also use the em 90px=5.62em and to make static we use px or rem in the place of em one more advantge to use rem is when we set the font size of body is 200% or 200px and the size of heading or any element is set to suppose 20px or 20% then its goes to multiple of font size of parents in this body so its looks giantic str.and if set the font size of the child i.e;h1 in this case in rem so it becomes the same as we set it can't multiply its parents font size so  the best way is set rem  */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /*line-height: 2; if we want to increase the the distance between two line*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;/*40px*/
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  width:5%;
+  border: dotted  #FB2576 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+    margin:100px 0;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+padding: 50px 0 20px;
+
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill{
+  width :25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.chilli{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+/* suppose we want that only heading tag is on left wrap of the img amd the paragraph is on the below to the image so we give class to a paragraph and put it on the css property called .paragraph{clear:left;}   */
+
+.intro{
+  width:30%;
+  margin:auto;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
